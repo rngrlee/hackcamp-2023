@@ -1,34 +1,62 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>jVectorMap demo</title>
-  <link rel="stylesheet" href="jquery-jvectormap-2.0.5.css" type="text/css" media="screen"/>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script src="jquery-jvectormap-2.0.5.min.js"></script>
-  <script src="jquery-jvectormap-europe-merc.js"></script>
-</head>
-<!-- Start everything now -->
-<body>
+  <head>
+    <title>jVectorMap demo</title>
+    <link rel="stylesheet" href="jquery-jvectormap-2.0.5.css" type="text/css"
+      media="screen" />
 
-  <!-- include the logo /Users/nasa_william_lu/hackcamp-2023/backimgs/UniverStay BrandName.png -->
-  <img class="round-logo" src="backgroundimgs/Title-logo.png" alt="Title-log.png" style="width: 200px;">
-  
-  <h1>Welcome to UniverStay</h1>
+      <!-- Cookie font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap"
+      rel="stylesheet">
 
-  <div id="menu">
-    <ul>
-      <li><a href="about.html">About</a></li>
-      <li><a href="application.html">Application for Host</a></li>
-      <li><a href="mission.html">Mission</a></li>
-      <li><a href="solutions.html">Solutions</a></li>
-    </ul>
-  </div>
+      <!-- Nanum Gothic -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cookie&family=Nanum+Gothic&display=swap" rel="stylesheet">
 
-  <div id="world-map" style="width: 600px; height: 400px"></div>
-  <script>
-    $(function(){
-        $('#world-map').vectorMap({map: 'europe_merc'});
-    });
-  </script>
-</body>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="jquery-jvectormap-2.0.5.min.js"></script>
+    <script src="jquery-jvectormap-europe-merc.js"></script>
+  </head>
+  <!-- Start everything now -->
+  <body>
+
+    <style>
+    #header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    #menu ul {
+      display: flex;
+      list-style-type: none;
+      padding: 0;
+    }
+    #menu ul li {
+      margin-right: 10px;
+    }
+    </style>
+
+    <div id="header">
+      <img id="title-logo" src="backgroundimgs/Title-logo-with-background.png"
+        alt="Title-logo-with-background.png">
+      <div id="menu">
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="application.html">Application</a></li>
+          <li><a href="guide.html">Guide</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <h1>Welcome to UniverStay</h1>
+
+    <h2>A housing exchange platform for disadvantaged university students</h2>
+  </body>
 </html>
+
+city
+bio
+accessibility: is accessible. text field
