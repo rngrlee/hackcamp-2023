@@ -27,18 +27,20 @@ function App() {
 
   const hostsDisplayed = filter
     ? hosts.filter(host => host.country.toLowerCase().includes(filter.toLowerCase()))
-    : hosts
+    : []
+
+    console.log(hostsDisplayed)
 
   return (
     <>
       <Filter value={filter} onChange={handleFilterChange} />
-      {hostsDisplayed.map(profile => 
+      {hostsDisplayed.map(host => 
       <Profile
-     name='Ranger'
-     country='Canada'
-     city='Vancouver'
-     bio='Student, etc.'
-     accessible='yes' />)}
+     name={host.name}
+     country={host.country}
+     city={host.city}
+     bio={host.bio}
+     accessible={host.accessible} />)}
     </>
   )
 }
