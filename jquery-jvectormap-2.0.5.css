@@ -219,7 +219,9 @@ h2 {
     border: 0px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    background-color: rgb(230, 147, 65);
+    /* background-color: rgb(230, 147, 65); */
+    /* background-color: rgba(64, 84, 64, 0.32); */
+    background-color: rgba(99, 87, 75, 0.17)
 }
 
 #applicationForm input[type="bio"] {
