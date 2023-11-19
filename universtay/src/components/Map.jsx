@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react';
-import 'mapFiles/jquery-jvectormap-2.0.5.css';
+import { useEffect } from 'react';
+import './mapFiles/jquery-jvectormap-2.0.5.css';
 import $ from 'jquery';
-import 'mapFiles/jquery-jvectormap-2.0.5.min.js';
-import 'map/Filesjquery-jvectormap-europe-merc.js';
+import './mapFiles/jquery-jvectormap-2.0.5.min.js';
+import './mapFiles/jquery-jvectormap-europe-merc.js';
 
 const JVectorMapComponent = () => {
   useEffect(() => {
