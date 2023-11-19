@@ -1,34 +1,47 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>jVectorMap demo</title>
-  <link rel="stylesheet" href="jquery-jvectormap-2.0.5.css" type="text/css" media="screen"/>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script src="jquery-jvectormap-2.0.5.min.js"></script>
-  <script src="jquery-jvectormap-europe-merc.js"></script>
-</head>
-<!-- Start everything now -->
-<body>
+  <head>
+    <title>jVectorMap demo</title>
+    <link rel="stylesheet" href="jquery-jvectormap-2.0.5.css" type="text/css"
+      media="screen" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="jquery-jvectormap-2.0.5.min.js"></script>
+    <script src="jquery-jvectormap-europe-merc.js"></script>
+  </head>
+  <!-- Start everything now -->
+  <body>
 
-  <!-- include the logo /Users/nasa_william_lu/hackcamp-2023/backimgs/UniverStay BrandName.png -->
-  <img class="round-logo" src="backgroundimgs/Title-logo.png" alt="Title-log.png" style="width: 200px;">
-  
-  <h1>Welcome to UniverStay</h1>
+    <!-- include the logo /Users/nasa_william_lu/hackcamp-2023/backimgs/UniverStay BrandName.png -->
+    <style>
+    .round-logo {
+      display: inline-block;
+    }
+    </style>
 
-  <div id="menu">
-    <ul>
-      <li><a href="about.html">About</a></li>
-      <li><a href="application.html">Application for Host</a></li>
-      <li><a href="mission.html">Mission</a></li>
-      <li><a href="solutions.html">Solutions</a></li>
-    </ul>
-  </div>
+<div class="logo-container">
+  <img class="round-logo" src="backgroundimgs/Brand_name_no_bg.png" alt="Brand_name_no_bg.png" style="height: 180px;">
+  <img class="round-logo" src="backgroundimgs/Logo_alpha.png" alt="Logo_alpha.png" style="height: 180px;">
+</div>
 
-  <div id="world-map" style="width: 600px; height: 400px"></div>
-  <script>
+    <img class="round-logo" src="backgroundimgs/Brand_name_no_bg.png" alt="Brand_name_no_bg.png" style="width: 180px;">
+    <img class="round-logo" src="backgroundimgs/Logo_alpha.png" alt="Logo_alpha.png">
+
+    <h1>Welcome to UniverStay</h1>
+
+    <div id="menu">
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="application.html">Application for Host</a></li>
+        <li><a href="mission.html">Mission</a></li>
+        <li><a href="solutions.html">Solutions</a></li>
+      </ul>
+    </div>
+
+    <div id="world-map" style="width: 600px; height: 400px"></div>
+    <script>
     $(function(){
         $('#world-map').vectorMap({map: 'europe_merc'});
     });
   </script>
-</body>
+  </body>
 </html>
