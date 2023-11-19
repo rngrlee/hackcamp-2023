@@ -20,6 +20,349 @@
         "city": "Manchester",
         "bio": "sample text",
         "accessible": false
+      },
+      {
+        "name": "Sophie Dupont",
+        "country": "Belgium",
+        "city": "Brussels",
+        "bio": "Passionate chocolate connoisseur and avid cyclist. Enjoying the rich history and multicultural vibe of Brussels.",
+        "accessible": true
+      },
+      {
+        "name": "Sophie Dupont",
+        "country": "Belgium",
+        "city": "Brussels",
+        "bio": "Passionate chocolate connoisseur and avid cyclist. Enjoying the rich history and multicultural vibe of Brussels.",
+        "accessible": true
+      },
+      {
+        "name": "Elena Ivanova",
+        "country": "Bulgaria",
+        "city": "Sofia",
+        "bio": "Nature lover and folklore enthusiast. Embracing the beauty of the Rila Monastery and the vibrant traditions of Bulgaria.",
+        "accessible": true
+      },
+      {
+        "name": "Anders Nielsen",
+        "country": "Denmark",
+        "city": "Copenhagen",
+        "bio": "Bicycle commuter and hygge advocate. Enjoying the cozy atmosphere of Copenhagen and the scenic views along the canals.",
+        "accessible": true
+      },
+      {
+        "name": "Ana Horvat",
+        "country": "Croatia",
+        "city": "Dubrovnik",
+        "bio": "Sea enthusiast and history buff. Exploring the ancient walls of Dubrovnik and indulging in the beauty of the Adriatic coastline.",
+        "accessible": true
+      },
+      {
+        "name": "Max Müller",
+        "country": "Germany",
+        "city": "Berlin",
+        "bio": "Tech geek and beer aficionado. Immersing in the vibrant tech scene of Berlin and enjoying the diverse German beer culture.",
+        "accessible": true
+      },
+      {
+        "name": "Lejla Hadžić",
+        "country": "Bosnia and Herzegovina",
+        "city": "Sarajevo",
+        "bio": "Coffee lover and history explorer. Uncovering the stories of Sarajevo and enjoying the traditional Bosnian coffee rituals.",
+        "accessible": true
+      },
+      {
+        "name": "Gábor Nagy",
+        "country": "Hungary",
+        "city": "Budapest",
+        "bio": "Thermal bath enthusiast and music lover. Admiring the architecture of Budapest and attending classical concerts along the Danube.",
+        "accessible": true
+      },
+      {
+        "name": "Emma Smith",
+        "country": "Jersey",
+        "city": "Saint Helier",
+        "bio": "Beachcomber and seafood enthusiast. Enjoying the tranquil beaches of Saint Helier and savoring the fresh catches from the sea.",
+        "accessible": true
+      },
+      {
+        "name": "Mikko Virtanen",
+        "country": "Finland",
+        "city": "Helsinki",
+        "bio": "Sauna aficionado and northern lights chaser. Embracing the warmth of Helsinki's saunas and seeking the magic of the auroras in Lapland.",
+        "accessible": true
+      },
+      {
+        "name": "Natasha Ivanova",
+        "country": "Belarus",
+        "city": "Minsk",
+        "bio": "Nature photographer and traditional cuisine lover. Capturing the beauty of Belarusian landscapes and indulging in hearty local dishes.",
+        "accessible": true
+      },
+      {
+        "name": "Yannis Papadopoulos",
+        "country": "Greece",
+        "city": "Athens",
+        "bio": "History buff and olive oil connoisseur. Exploring the ancient ruins of Athens and enjoying the Mediterranean flavors of Greek cuisine.",
+        "accessible": true
+      },
+      {
+        "name": "Yannis Papadopoulos",
+        "country": "Greece",
+        "city": "Athens",
+        "bio": "History buff and olive oil connoisseur. Exploring the ancient ruins of Athens and enjoying the Mediterranean flavors of Greek cuisine.",
+        "accessible": true
+      },
+      {
+        "name": "Dmitri Ivanov",
+        "country": "Russia",
+        "city": "Moscow",
+        "bio": "Chess enthusiast and winter sports fan. Exploring the historical landmarks of Moscow and embracing the Russian passion for chess.",
+        "accessible": true
+      },
+      {
+        "name": "Eva van der Berg",
+        "country": "Netherlands",
+        "city": "Amsterdam",
+        "bio": "Bicycle commuter and tulip admirer. Navigating the picturesque canals of Amsterdam and enjoying the vibrant colors of Dutch tulip fields.",
+        "accessible": true
+      },
+      {
+        "name": "Ricardo Silva",
+        "country": "Portugal",
+        "city": "Lisbon",
+        "bio": "Fado music lover and port wine enthusiast. Exploring the historic neighborhoods of Lisbon and indulging in the rich flavors of Portuguese cuisine.",
+        "accessible": true
+      },
+      {
+        "name": "Maja Andersen",
+        "country": "Norway",
+        "city": "Oslo",
+        "bio": "Outdoor adventurer and Northern Lights chaser. Embracing the beauty of Norwegian fjords and seeking the magic of the auroras in the Arctic sky.",
+        "accessible": true
+      },
+      {
+        "name": "Markus Fischer",
+        "country": "Liechtenstein",
+        "city": "Vaduz",
+        "bio": "Mountain hiker and art enthusiast. Enjoying the panoramic views of the Alps in Liechtenstein and exploring the cultural treasures of Vaduz.",
+        "accessible": true
+      },
+      {
+        "name": "Anna Petrova",
+        "country": "Latvia",
+        "city": "Riga",
+        "bio": "Baltic folklore lover and amber enthusiast. Immersing in the historic charm of Riga and appreciating the beauty of Latvian amber.",
+        "accessible": true
+      },
+      {
+        "name": "Tomas Jankauskas",
+        "country": "Lithuania",
+        "city": "Vilnius",
+        "bio": "Basketball fan and medieval history buff. Exploring the baroque architecture of Vilnius and cheering for Lithuanian basketball teams.",
+        "accessible": true
+      },
+      {
+        "name": "Sophie Müller",
+        "country": "Luxembourg",
+        "city": "Luxembourg City",
+        "bio": "Banker by day, jazz enthusiast by night. Balancing the financial world in Luxembourg City and enjoying the jazz scene in the evenings.",
+        "accessible": true
+      },
+      {
+        "name": "Ólavur Hansen",
+        "country": "Faroe Islands",
+        "city": "Tórshavn",
+        "bio": "Seafarer and puffin admirer. Navigating the North Atlantic waters around the Faroe Islands and cherishing the presence of puffins.",
+        "accessible": true
+      },
+      {
+        "name": "Katarzyna Nowak",
+        "country": "Poland",
+        "city": "Warsaw",
+        "bio": "Pierogi enthusiast and history explorer. Immersing in the cultural heritage of Warsaw and savoring the diverse flavors of Polish pierogi.",
+        "accessible": true
+      },
+      {
+        "name": "Liridona Xhaka",
+        "country": "Kosovo",
+        "city": "Pristina",
+        "bio": "Traditional dance lover and coffee enthusiast. Exploring the vibrant cultural scene of Pristina and enjoying the rich taste of Kosovo coffee.",
+        "accessible": true
+      },
+      {
+        "name": "Andreas Müller",
+        "country": "Switzerland",
+        "city": "Zurich",
+        "bio": "Mountain skier and chocolate aficionado. Embracing the Swiss Alps in winter and indulging in the finest Swiss chocolates.",
+        "accessible": true
+      },
+      {
+        "name": "Elena Garcia",
+        "country": "Andorra",
+        "city": "Andorra la Vella",
+        "bio": "Ski enthusiast and tax haven resident. Enjoying the ski resorts of Andorra and navigating the financial benefits of a tax-friendly environment.",
+        "accessible": true
+      },
+      {
+        "name": "Kristjan Tamm",
+        "country": "Estonia",
+        "city": "Tallinn",
+        "bio": "Tech innovator and sauna lover. Contributing to Estonia's tech boom and relaxing in traditional Estonian saunas.",
+        "accessible": true
+      },
+      {
+        "name": "Halla Ólafsdóttir",
+        "country": "Iceland",
+        "city": "Reykjavik",
+        "bio": "Volcano explorer and Nordic sagas reader. Embracing the geothermal wonders of Iceland and diving into the rich mythology of Nordic sagas.",
+        "accessible": true
+      },
+      {
+        "name": "Luan Basha",
+        "country": "Albania",
+        "city": "Tirana",
+        "bio": "Mountain trekker and olive oil enthusiast. Exploring the scenic landscapes around Tirana and appreciating the flavors of Albanian olive oil.",
+        "accessible": true
+      },
+      {
+        "name": "Giulia Rossi",
+        "country": "Italy",
+        "city": "Rome",
+        "bio": "Art history enthusiast and pasta lover. Navigating the historical wonders of Rome and indulging in the diverse world of Italian pasta.",
+        "accessible": true
+      },
+      {
+        "name": "Oliver Smith",
+        "country": "Guernsey",
+        "city": "St. Peter Port",
+        "bio": "Island explorer and maritime history buff. Embracing the charm of St. Peter Port and delving into the maritime heritage of Guernsey.",
+        "accessible": true
+      },
+      {
+        "name": "Jakub Novak",
+        "country": "Czech Republic",
+        "city": "Prague",
+        "bio": "Beer aficionado and castle explorer. Navigating the historic streets of Prague and enjoying the rich variety of Czech beers.",
+        "accessible": true
+      },
+      {
+        "name": "Emma Hughes",
+        "country": "Isle of Man",
+        "city": "Douglas",
+        "bio": "Motorcycle enthusiast and coastal explorer. Riding along the scenic coast of the Isle of Man and enjoying the peaceful atmosphere of Douglas.",
+        "accessible": true
+      },
+      {
+        "name": "James Thompson",
+        "country": "United Kingdom",
+        "city": "London",
+        "bio": "Theatre lover and tea enthusiast. Embracing the cultural scene of London and savoring the tradition of afternoon tea.",
+        "accessible": true
+      },
+      {
+        "name": "Elin Sundström",
+        "country": "Aland",
+        "city": "Mariehamn",
+        "bio": "Archipelago explorer and maritime history buff. Navigating the beautiful islands of Aland and delving into its rich maritime heritage.",
+        "accessible": true
+      },
+      {
+        "name": "Sean O'Connor",
+        "country": "Ireland",
+        "city": "Dublin",
+        "bio": "Pub enthusiast and traditional music lover. Exploring the lively pubs of Dublin and embracing the soulful tunes of Irish folk music.",
+        "accessible": true
+      },
+      {
+        "name": "Isabella García",
+        "country": "Spain",
+        "city": "Barcelona",
+        "bio": "Flamenco dancer and tapas connoisseur. Immersing in the vibrant energy of Barcelona and savoring the diverse flavors of Spanish tapas.",
+        "accessible": true
+      },
+      {
+        "name": "Nikola Petrovic",
+        "country": "Montenegro",
+        "city": "Podgorica",
+        "bio": "Mountain trekker and Adriatic sea lover. Exploring the scenic landscapes of Montenegro and enjoying the crystal-clear waters of the Adriatic.",
+        "accessible": true
+      },
+      {
+        "name": "Ana Cojocaru",
+        "country": "Moldova",
+        "city": "Chisinau",
+        "bio": "Wine enthusiast and cultural explorer. Tasting the rich Moldovan wines and discovering the cultural heritage of Chisinau.",
+        "accessible": true
+      },
+      {
+        "name": "Andrei Popescu",
+        "country": "Romania",
+        "city": "Bucharest",
+        "bio": "Carpathian explorer and folklore enthusiast. Navigating the beautiful Carpathian Mountains and immersing in the rich Romanian folklore.",
+        "accessible": true
+      },
+      {
+        "name": "Jovana Milic",
+        "country": "Serbia",
+        "city": "Belgrade",
+        "bio": "Coffee lover and nightlife enthusiast. Enjoying the vibrant nightlife of Belgrade and savoring the strong flavors of Serbian coffee.",
+        "accessible": true
+      },
+      {
+        "name": "Stefan Ivanovski",
+        "country": "Macedonia",
+        "city": "Skopje",
+        "bio": "Stone bridge admirer and traditional music lover. Exploring the historic Stone Bridge in Skopje and embracing the traditional Macedonian music.",
+        "accessible": true
+      },
+      {
+        "name": "Lucia Kováčová",
+        "country": "Slovakia",
+        "city": "Bratislava",
+        "bio": "Danube riverfront admirer and castle explorer. Enjoying the scenic views along the Danube in Bratislava and exploring the historic castles.",
+        "accessible": true
+      },
+      {
+        "name": "Giuseppe Attard",
+        "country": "Malta",
+        "city": "Valletta",
+        "bio": "Historical sites enthusiast and seafood lover. Navigating the historic streets of Valletta and savoring the fresh catches of the Mediterranean.",
+        "accessible": true
+      },
+      {
+        "name": "Ana Kovačič",
+        "country": "Slovenia",
+        "city": "Ljubljana",
+        "bio": "Lakeside stroller and Alpine explorer. Exploring the charming lakeside of Ljubljana and venturing into the picturesque Slovenian Alps.",
+        "accessible": true
+      },
+      {
+        "name": "Marco Rossi",
+        "country": "San Marino",
+        "city": "San Marino",
+        "bio": "Mountain fortress explorer and Italian cuisine lover. Admiring the medieval fortress in San Marino and indulging in the flavors of Italian cuisine.",
+        "accessible": true
+      },
+      {
+        "name": "Olena Ivanenko",
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "bio": "Dnieper river enthusiast and art lover. Exploring the scenic banks of the Dnieper River in Kyiv and immersing in the vibrant Ukrainian art scene.",
+        "accessible": true
+      },
+      {
+        "name": "Erik Johansson",
+        "country": "Sweden",
+        "city": "Stockholm",
+        "bio": "Archipelago cruiser and sauna aficionado. Navigating the beautiful Stockholm archipelago and enjoying the relaxing warmth of Swedish saunas.",
+        "accessible": true
+      },
+      {
+        "name": "Maria Schmidt",
+        "country": "Austria",
+        "city": "Vienna",
+        "bio": "Classical music enthusiast and coffeehouse frequenter. Attending classical concerts in Vienna and savoring the rich coffee culture of Austrian coffeehouses.",
+        "accessible": true
       }
     ]
   }
