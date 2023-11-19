@@ -1,0 +1,25 @@
+{
+    "hosts": [
+      {
+        "name": "Ranger",
+        "country": "Canada",
+        "city": "Vancouver",
+        "bio": "sample text",
+        "accessible": true
+      },
+      {
+        "name": "Peter Johansson",
+        "country": "Sweden",
+        "city": "Stockholm",
+        "bio": "sample text",
+        "accessible": false
+      },
+      {
+        "name": "John Bosh",
+        "country": "England",
+        "city": "Manchester",
+        "bio": "sample text",
+        "accessible": false
+      }
+    ]
+  }
