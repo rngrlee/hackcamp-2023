@@ -6,6 +6,7 @@ import Profile from './components/Profile'
 import Filter from './components/Filter'
 import hostService from './services/hostService'
 import HostForm from './components/hostForm'
+import Map from './components/Map'
 
 function App() {
   const [hosts, setHosts] = useState([])
@@ -87,7 +88,7 @@ function App() {
     console.log(hostsDisplayed)
 
   return (
-    <>
+    <div className='app'>
       <HostForm 
       addNewHost={addNewHost}
       newName={newName}
@@ -108,7 +109,8 @@ function App() {
      city={host.city}
      bio={host.bio}
      accessible={host.accessible} />)}
-    </>
+    <Map />
+    </div>
   )
 }
 

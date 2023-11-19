@@ -2,25 +2,25 @@ const HostForm = (props) => {
     
     return (
         <>
-            <form onSubmit={props.addNewHost}>
+            <form onSubmit={props.addNewHost} className="form">
                 <div>
-                    name: <input value={props.newName}
+                    name: <input className='input' value={props.newName}
                 onChange={props.handleNameChange}/>
                 </div>
                 <div>
-                    country: <input value={props.newCountry} 
+                    country: <input className='input' value={props.newCountry} 
                     onChange={props.handleCountryChange}/>
                 </div>
                 <div>
-                    city: <input value={props.newCity} 
+                    city: <input className='input' value={props.newCity} 
                     onChange={props.handleCityChange}/>
                 </div>
                 <div>
-                    bio: <input value={props.newBio} 
+                    bio: <input className='input' value={props.newBio} 
                     onChange={props.handleBioChange}/>
                 </div>
                 <div>
-                    accessibility: <input placeholder="leave blank if non accessible" value={props.newAccessible} 
+                    accessibility: <input placeholder="leave blank if N/A" className='input' value={props.newAccessible} 
                     onChange={props.handleAccessibleChange}/>
                 </div>
                 <div>
