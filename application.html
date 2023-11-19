@@ -1,0 +1,32 @@
+<!-- FILEPATH: /Users/nasa_william_lu/jquery-test/application.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Application Form</title>
+</head>
+<body>
+  <h1>Application Form</h1>
+  <form id="applicationForm" action="your-react-endpoint" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="country">Country:</label>
+    <input type="text" id="country" name="country" required><br><br>
+
+    <label for="language">Language:</label>
+    <input type="text" id="language" name="language" required><br><br>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="accessibility">Accessibility:</label>
+    <select id="accessibility" name="accessibility" required>
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
