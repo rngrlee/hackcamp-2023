@@ -2,31 +2,51 @@
 
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Application Form</title>
-</head>
-<body>
-  <h1>Application Form</h1>
-  <form id="applicationForm" action="your-react-endpoint" method="POST">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required><br><br>
+  <head>
+    <title>Application Form</title>
+    <link rel="stylesheet" href="jquery-jvectormap-2.0.5.css" type="text/css"
+      media="screen" />
 
-    <label for="country">Country:</label>
-    <input type="text" id="country" name="country" required><br><br>
+    <!-- Cookie font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap"
+      rel="stylesheet">
 
-    <label for="language">Language:</label>
-    <input type="text" id="language" name="language" required><br><br>
+    <!-- Nanum Gothic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cookie&family=Nanum+Gothic&display=swap"
+      rel="stylesheet">
+  </head>
+  <body>
+    <h1>Application Form</h1>
+    
+    <form id="applicationForm" action="your-react-endpoint" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
 
-    <label for="email">Email Address:</label>
-    <input type="email" id="email" name="email" required><br><br>
+      <label for="country">Country:</label>
+      <input type="text" id="country" name="country" required><br><br>
 
-    <label for="accessibility">Accessibility:</label>
-    <select id="accessibility" name="accessibility" required>
-      <option value="yes">Yes</option>
-      <option value="no">No</option>
-    </select><br><br>
+      <label for="city">City:</label>
+      <input type="text" id="city" name="city" required><br><br>
 
-    <input type="submit" value="Submit">
-  </form>
-</body>
+      <label for="language">Language:</label>
+      <input type="text" id="language" name="language" required><br><br>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="accessibility">Accessibility:</label>
+      <input type="text" id="accessibility" name="accessibility"
+        required><br><br>
+
+      <label for="bio">Bio:</label>
+      <input type="bio" id="bio" name="bio" required><br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </body>
 </html>

@@ -180,11 +180,6 @@ p {
     color: white;
 }
 
-@font-face {
-    font-family: myFirstFont;
-    src: url(sansation_light.woff);
-}
-
 h1 {
     /* Bigger text */
     font-size: 4em;
@@ -200,4 +195,50 @@ h2 {
 h1,
 h2 {
     text-align: center;
+}
+
+#applicationForm {
+    /* border: 5px solid black;
+    border-radius: 25px; */
+
+    padding: 40px;
+
+    /* Set maximum width */
+    max-width: 500px;
+    margin: auto;
+    font-family: "Nanum Gothic", sans-serif;
+}
+
+#applicationForm input[type="text"],
+#applicationForm input[type="email"],
+#applicationForm input[type="bio"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 0px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgb(230, 147, 65);
+}
+
+#applicationForm input[type="bio"] {
+    height: auto;
+    min-height: 100px;
+}
+
+#applicationForm input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Nanum Gothic", sans-serif;
+}
+
+#applicationForm input[type="submit"]:hover {
+    background-color: #45a049;
 }
