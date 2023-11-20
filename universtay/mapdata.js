@@ -2,14 +2,14 @@ var simplemaps_europemap_mapdata={
   main_settings: {
     //General settings
 		width: "responsive", //or 'responsive'
-    background_color: "#FFFFFF",
+    background_color: "#F9B572",
     background_transparent: "yes",
     border_color: "#ffffff",
     popups: "detect",
     
 		//State defaults
 		state_description: "Available Homes: 1",
-    state_color: "#88A4BC",
+    state_color: "#99B080",
     state_hover_color: "#3B729F",
     state_url: "",
     border_size: 1.5,
@@ -18,7 +18,7 @@ var simplemaps_europemap_mapdata={
     
 		//Location defaults
 		location_description: "Location description",
-    location_color: "#FF0067",
+    location_color: "#748E63",
     location_opacity: 0.8,
     location_hover_opacity: 1,
     location_url: "",
