@@ -3,7 +3,7 @@ const HostForm = (props) => {
     return (
         <>
             <form onSubmit={props.addNewHost} className="form">
-                <div>
+                <div id="entryFields">
                     name: <input className='input' value={props.newName}
                 onChange={props.handleNameChange}/>
                 </div>
@@ -27,7 +27,7 @@ const HostForm = (props) => {
                     accessibility: <input placeholder="leave blank if N/A" className='input' value={props.newAccessible} 
                     onChange={props.handleAccessibleChange}/>
                 </div>
-                <div>
+                <div id="submitButton">
                     <button type="submit">add</button>
                 </div>
             </form>

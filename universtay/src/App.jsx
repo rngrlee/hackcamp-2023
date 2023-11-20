@@ -8,7 +8,8 @@ import hostService from './services/hostService'
 import HostForm from './components/hostForm'
 import Map from './components/Map'
 
-import logo from './assets/Title-logo-with-background.png'
+
+import logo from './assets/Brand_name_no_bg.png'
 
 function App() {
   const [hosts, setHosts] = useState([])

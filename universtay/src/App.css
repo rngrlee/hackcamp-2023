@@ -24,17 +24,49 @@
 }
 
 .app-right {
+  padding-top: 50px;
+  padding-left: 100px;
   width: 60vw;
   float:right;
 }
 
 .app-left {
   float:left;
-  width: 10vw;
-  padding-right: 200px;
+  width: 18vw;
+  padding-left: 50px;
+  padding-right: 100px;
+  display: inline-block;
+  background-color: rgba(99, 87, 75, 0.17)
+}
+
+.result {
+  background-color: #FAF8ED
 }
 
 .logo {
   width: 300px;
   border-radius: 30px;
+}
+
+#form {
+  width: 120%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 0px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  /* background-color: rgb(230, 147, 65); */
+  /* background-color: rgba(64, 84, 64, 0.32); */
+  background-color: rgba(99, 87, 75, 0.17)
+}
+
+#entryFields {
+  padding-top: 20px;
+}
+
+#submitButton {
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-bottom: 20px;
 }
