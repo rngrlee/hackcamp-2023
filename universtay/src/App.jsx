@@ -89,7 +89,7 @@ function App() {
 
   return (
     <div className='total-app'>
-    <div className='app'>
+    <div className='app-left'>
       <HostForm 
       addNewHost={addNewHost}
       newName={newName}
@@ -111,9 +111,9 @@ function App() {
      bio={host.bio}
      accessible={host.accessible} />)}
      </div>
-     <div className="app-left">
-      <Map />
-    </div>
+      <div className="app-right">
+        <Map />
+      </div>
     </div>
   )
 }

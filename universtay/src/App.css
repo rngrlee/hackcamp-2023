@@ -1,6 +1,6 @@
 .form {
   position: relative;
-  margin-left: 30px;
+  margin-left: 10%;
 }
 
 .input {
@@ -20,6 +20,15 @@
   width: 15vw;
 }
 
+.app-right {
+  width: 70vw;
+  float:right;
+}
+
+.app-left {
+  float:left;
+}
+
 /* .map {
   display: inline;
 }
@@ -29,9 +38,7 @@
   width: 100vw;
 }
 
-.app-left {
-  flex: 80%;
-}
+
 
 .map {
   width: 80vw;

@@ -357,13 +357,7 @@ var simplemaps_europemap_mapdata={
       url: "default"
     }
   },
-  locations: {
-    "0": {
-      lat: 48.857,
-      lng: 2.341,
-      name: "Paris"
-    }
-  },
+  locations: {},
   regions: {},
   labels: {}
 };
