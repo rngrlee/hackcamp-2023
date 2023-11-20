@@ -8,7 +8,7 @@ var simplemaps_europemap_mapdata={
     popups: "detect",
     
 		//State defaults
-		state_description: "State description",
+		state_description: "Available Homes: 1",
     state_color: "#88A4BC",
     state_hover_color: "#3B729F",
     state_url: "",
@@ -176,7 +176,7 @@ var simplemaps_europemap_mapdata={
     },
     FR: {
       name: "France",
-      description: "default",
+      description: "Available Homes: 0",
       color: "default",
       hover_color: "default",
       url: "default"
