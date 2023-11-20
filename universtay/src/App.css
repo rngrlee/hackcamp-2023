@@ -15,3 +15,24 @@
   position: relative;
   margin-left: 30px;
 }
+
+.profile {
+  width: 15vw;
+}
+
+/* .map {
+  display: inline;
+}
+
+.total-app {
+  display: flex;
+  width: 100vw;
+}
+
+.app-left {
+  flex: 80%;
+}
+
+.map {
+  width: 80vw;
+} */

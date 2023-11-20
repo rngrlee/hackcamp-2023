@@ -88,6 +88,7 @@ function App() {
     console.log(hostsDisplayed)
 
   return (
+    <div className='total-app'>
     <div className='app'>
       <HostForm 
       addNewHost={addNewHost}
@@ -109,7 +110,10 @@ function App() {
      city={host.city}
      bio={host.bio}
      accessible={host.accessible} />)}
-    <Map />
+     </div>
+     <div className="app-left">
+      <Map />
+    </div>
     </div>
   )
 }
