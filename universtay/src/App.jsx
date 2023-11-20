@@ -17,6 +17,7 @@ function App() {
   const [newCountry, setNewCountry] = useState('')
   const [newCity, setNewCity] = useState('')
   const [newBio, setNewBio] = useState('')
+  const [newEmail, setNewEmail] = useState('')
   const [newAccessible, setNewAccessible] = useState('')
 
   useEffect(() => {
@@ -38,6 +39,7 @@ function App() {
       country: newCountry,
       city: newCity,
       bio: newBio,
+      email: newEmail,
       accessible: newAccessible ? 'is accessible' : "not accessible"
     }
 
@@ -73,6 +75,11 @@ function App() {
     setNewBio(event.target.value)
   } 
 
+  const handleEmailChange = (event) => {
+    console.log(event.target.value)
+    setNewEmail(event.target.value)
+  } 
+
   const handleAccessibleChange = (event) => {
     console.log(event.target.value)
     setNewAccessible(event.target.value)
@@ -104,6 +111,8 @@ function App() {
       handleCityChange={handleCityChange}
       newBio={newBio}
       handleBioChange={handleBioChange}
+      newEmail={newEmail}
+      handleEmailChange={handleEmailChange}
       newAccessible={newAccessible}
       handleAccessibleChange={handleAccessibleChange} />
       <Filter value={filter} onChange={handleFilterChange} />
