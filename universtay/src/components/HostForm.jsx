@@ -20,6 +20,10 @@ const HostForm = (props) => {
                     onChange={props.handleBioChange}/>
                 </div>
                 <div>
+                    email: <input className='input' value={props.newEmail} 
+                    onChange={props.handleEmailChange}/>
+                </div>
+                <div>
                     accessibility: <input placeholder="leave blank if N/A" className='input' value={props.newAccessible} 
                     onChange={props.handleAccessibleChange}/>
                 </div>
