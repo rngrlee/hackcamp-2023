@@ -42,7 +42,7 @@ function App() {
     hostService
       .create(newHostObject)
       .then(returnedHost => {
-        setHosts(persons.concat(returnedPerson))
+        setHosts(hosts.concat(returnedHost))
         setNewName('')
         setNewCountry('')
         setNewCity('')
@@ -82,8 +82,8 @@ function App() {
   }
 
   const hostsDisplayed = filter
-    ? hosts.filter(host => host.country.toLowerCase().includes(filter.toLowerCase()))
-    : []
+    ? hosts.filter(host => host.country.toLowerCase().includes(filter.toLowerCase())).slice(0, 1)
+    : hosts.slice(0, 1)
 
     console.log(hostsDisplayed)
 

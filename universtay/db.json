@@ -1,34 +1,6 @@
 {
     "hosts": [
       {
-        "name": "Ranger",
-        "country": "Canada",
-        "city": "Vancouver",
-        "bio": "sample text",
-        "accessible": true
-      },
-      {
-        "name": "Peter Johansson",
-        "country": "Sweden",
-        "city": "Stockholm",
-        "bio": "sample text",
-        "accessible": false
-      },
-      {
-        "name": "John Bosh",
-        "country": "England",
-        "city": "Manchester",
-        "bio": "sample text",
-        "accessible": false
-      },
-      {
-        "name": "Sophie Dupont",
-        "country": "Belgium",
-        "city": "Brussels",
-        "bio": "Passionate chocolate connoisseur and avid cyclist. Enjoying the rich history and multicultural vibe of Brussels.",
-        "accessible": true
-      },
-      {
         "name": "Sophie Dupont",
         "country": "Belgium",
         "city": "Brussels",
