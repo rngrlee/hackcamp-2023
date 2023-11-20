@@ -8,6 +8,8 @@ import hostService from './services/hostService'
 import HostForm from './components/hostForm'
 import Map from './components/Map'
 
+import logo from './assets/Title-logo-with-background.png'
+
 function App() {
   const [hosts, setHosts] = useState([])
   const [filter, setFilter] = useState('')
@@ -89,7 +91,9 @@ function App() {
 
   return (
     <div className='total-app'>
+      
     <div className='app-left'>
+      <img className='logo' src={logo}></img>
       <HostForm 
       addNewHost={addNewHost}
       newName={newName}
