@@ -33,27 +33,27 @@ function App() {
 
   const addNewHost = (event) => {
     event.preventDefault()
-    console.log('button clicked', event.target)
+    // console.log('button clicked', event.target)
     
-    const newHostObject = {
-      name: newName,
-      country: newCountry,
-      city: newCity,
-      bio: newBio,
-      email: newEmail,
-      accessible: newAccessible ? 'is accessible' : "not accessible"
-    }
+    // const newHostObject = {
+    //   name: newName,
+    //   country: newCountry,
+    //   city: newCity,
+    //   bio: newBio,
+    //   email: newEmail,
+    //   accessible: newAccessible
+    // }
 
-    hostService
-      .create(newHostObject)
-      .then(returnedHost => {
-        setHosts(hosts.concat(returnedHost))
+    // hostService
+    //   .create(newHostObject)
+    //   .then(returnedHost => {
+    //     setHosts(hosts.concat(returnedHost))
         setNewName('')
         setNewCountry('')
         setNewCity('')
         setNewBio('')
+        setNewEmail('')
         setNewAccessible('')
-      })
     }
 
   const handleNameChange = (event) => {
@@ -123,6 +123,7 @@ function App() {
      country={host.country}
      city={host.city}
      bio={host.bio}
+     email={host.email}
      accessible={host.accessible} />)}
      </div>
       <div className="app-right">
